@@ -11,6 +11,47 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+/* ALL CSS DESIGN ELEMENTS */
+
+/* Nav bar box formatting */
+.navbar {
+  margin: 0;
+  margin-top: 0;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  background-color: #A1B58D;
+  opacity: 50%;
+  padding: 20px;
+}
+
+/* Nav bar text */
+.nav-item {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Nav bar item color */
+.nav-item a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/* Nav bar hover color */
+.nav-item a:hover {
+  color: #A1B58D;
+}
+
+.hero {
+  text-align: center;
+  margin: auto;
+  max-width: 1200px;
+  padding: 10px;
+  border-color: black;
+  border-width: 2px;
+  border-style: double;
+ background-color:  #AFAFAF;
+ opacity: 50%;
+}
 
 body {
   margin: 0;
@@ -27,24 +68,4 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-}
-
-.navbar {
-  list-style: none;
-  display: flex;
-  background-color: #333;
-  padding: 10px;
-}
-
-.nav-item {
-  margin-right: 20px;
-}
-
-.nav-item a {
-  text-decoration: none;
-  color: white;
-}
-
-.nav-item a:hover {
-  color: yellow;
 }
