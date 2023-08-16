@@ -1,14 +1,28 @@
 import React from 'react';
-import '../app/globals.css'; //Import your CSS file
 import Link from 'next/link';
 
-function HomePage() {
+function navbar() {
   return (
-    <div className="container">
-      <h1>Welcome to My Next.js Website</h1>
-      <p>This is the home page of my awesome website built with Next.js!</p>
-    </div>
+    <nav>
+      <ul className="navbar">
+        <li className="nav-item">
+          <Link href="/">
+            <a>Home</a>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link href="/about">
+            <a>About</a>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link href="/contact">
+            <a>Contact</a>
+          </Link>
+        </li>
+      </ul>
+    </nav>
   );
 }
 
-export default HomePage;
+export default navbar;
