@@ -11,6 +11,10 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
 /* ALL CSS DESIGN ELEMENTS */
 
 /* color palette for now 
@@ -96,7 +100,7 @@ font-family: "Copperplate";
   border-style: double;
  background: rgba(175, 175, 175, .5);
 }
-.briefbio {
+#aboutme {
   margin: auto;
   margin-top: 50px;
   text-align: center;
@@ -108,7 +112,43 @@ font-family: "Copperplate";
  background: rgba(175, 175, 175, .5);
 }
 
-.mailchimp {
+#projects {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  max-width: 500px;
+  padding: 10px;
+  border-color: black;
+  border-width: 2px;
+  border-style: double;
+ background: rgba(175, 175, 175, .5);
+}
+
+#resume {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  max-width: 500px;
+  padding: 10px;
+  border-color: black;
+  border-width: 2px;
+  border-style: double;
+ background: rgba(175, 175, 175, .5);
+}
+
+#privacypolicy {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  max-width: 500px;
+  padding: 10px;
+  border-color: black;
+  border-width: 2px;
+  border-style: double;
+ background: rgba(175, 175, 175, .5);
+}
+/* mailchimp vvvvvv */
+#contactme {
   margin: auto;
   margin-top: 50px;
   text-align: center;
