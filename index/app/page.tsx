@@ -5,7 +5,7 @@ import Link from 'next/link';
 function HomePage() {
   return (
     
-    <div>
+    <div className="body">
       
       <title>My Portfolio</title> 
 
