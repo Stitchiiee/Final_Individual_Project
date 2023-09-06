@@ -5,18 +5,10 @@ import Link from 'next/link';
 function HomePage() {
   return (
     
-    <div className="body">
+    <div>
       
       <title>My Portfolio</title> 
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C9CMP2BQ5N"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C9CMP2BQ5N');
-</script>
+    
       <nav>
       <ul className="navbar">
         <li className="nav-item">
@@ -73,7 +65,15 @@ function HomePage() {
 <div id="projects">
   <h3>Projects</h3>
   <p>Some of the projects I have made include a text based adventure game written in Java, I helped organize my school yearbooks in highschool using photoshop, I edited tracks for a live dance recital using FL Studio, and I have made two other websites in basic HTML.  </p>
-<script></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C9CMP2BQ5N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C9CMP2BQ5N');
+</script>
 </div>
 <div id="privacypolicy">
   <h3>Privacy Policy</h3>
