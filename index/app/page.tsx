@@ -8,7 +8,15 @@ function HomePage() {
     <div className="body">
       
       <title>My Portfolio</title> 
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C9CMP2BQ5N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-C9CMP2BQ5N');
+</script>
       <nav>
       <ul className="navbar">
         <li className="nav-item">
