@@ -8,7 +8,7 @@ const { chromium } = require('playwright');
   const page = await browser.newPage();
 
   // Navigate to your website
-  await page.goto(''); // Replace with your website URL
+  await page.goto('https://final-individual-project-8gcfmmui3-is328-njitedu.vercel.app/'); // Replace with your website URL
 
   // Take a screenshot
   await page.screenshot({ path: 'screenshot.png' });
