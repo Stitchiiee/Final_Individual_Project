@@ -109,10 +109,13 @@ Last Updated: [8/22/2023]</p>
 
 <p>Contact Me:</p>
 
-<p>If you have any questions or concerns regarding this Privacy Policy, please contact me at [Your Contact Information].</p>
+<p>If you have any questions or concerns regarding this Privacy Policy, please contact me.</p>
 </div>
 <div id="contactme">
-  <h3>Mailchimp</h3>
+  <h3>Join the mailing list with the link below!</h3>
+  <a href='https://mailchi.mp/[xxxxxx]/my-portfolio'>
+    Mailing List
+  </a>
   <p></p>
 </div>
 </main>
